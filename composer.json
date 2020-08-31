@@ -1,0 +1,31 @@
+{
+  "name": "windhoney/yii2-acm-kms",
+  "description": "阿里云ACM KMS",
+  "keywords": [
+    "yii",
+    "acm",
+    "kms"
+  ],
+  "type": "yii2-extension",
+  "license": "MIT",
+  "support": {
+    "issues": "https://github.com/windhoney/yii2-rest-rbac/issues",
+    "source": "https://github.com/windhoney/yii2-rest-rbac"
+  },
+  "authors": [
+    {
+      "name": "windhoney",
+      "email": "524415250@qq.com"
+    }
+  ],
+  "require": {
+    "yiisoft/yii2": ">2.0.7",
+    "php": ">=7.0.0",
+    "alibabacloud/sdk": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "wind\\Client\\": "src"
+    }
+  }
+}
