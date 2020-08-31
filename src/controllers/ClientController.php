@@ -1,6 +1,6 @@
 <?php
 
-namespace wind\client;
+namespace wind\acm\controllers;
 
 use AlibabaCloud\Client\AlibabaCloud;
 use AlibabaCloud\Client\Exception\ClientException;
@@ -16,7 +16,7 @@ require_once '../../sdk/Aliyun/ACM/Autoload.php';
  *
  * @package common\helper
  */
-class Client
+class ClientController
 {
     
     private $access_key_id;
