@@ -1,6 +1,6 @@
 <?php
 
-namespace wind\acm\controllers;
+namespace wind\acm;
 
 use AlibabaCloud\Client\AlibabaCloud;
 use AlibabaCloud\Client\Exception\ClientException;
@@ -9,14 +9,20 @@ use Aliyun_ACM_Client;
 use Yii;
 use yii\base\Exception;
 
-require_once '../../sdk/Aliyun/ACM/Autoload.php';
+//$path = __DIR__;
+//set_include_path(get_include_path() . PATH_SEPARATOR . $path);
+//set_include_path(dirname(__FILE__) . PATH_SEPARATOR . get_include_path() );
+
+require_once 'sdk/Aliyun/ACM/Autoload.php';
+//require_once realpath(dirname(__FILE__) . '/sdk/Aliyun/ACM/Autoload.php');
+
 
 /**
  * Class AliHelper
  *
  * @package common\helper
  */
-class ClientController
+class AcmHelper
 {
     
     private $access_key_id;
