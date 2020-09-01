@@ -9,13 +9,7 @@ use Aliyun_ACM_Client;
 use Yii;
 use yii\base\Exception;
 
-//$path = __DIR__;
-//set_include_path(get_include_path() . PATH_SEPARATOR . $path);
-//set_include_path(dirname(__FILE__) . PATH_SEPARATOR . get_include_path() );
-
 require_once 'sdk/Aliyun/ACM/Autoload.php';
-//require_once realpath(dirname(__FILE__) . '/sdk/Aliyun/ACM/Autoload.php');
-
 
 /**
  * Class AliHelper

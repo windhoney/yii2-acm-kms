@@ -9,8 +9,8 @@
   "type": "yii2-extension",
   "license": "MIT",
   "support": {
-    "issues": "https://github.com/windhoney/yii2-rest-rbac/issues",
-    "source": "https://github.com/windhoney/yii2-rest-rbac"
+    "issues": "https://github.com/windhoney/yii2-acm-kms/issues",
+    "source": "https://github.com/windhoney/yii2-acm-kms"
   },
   "authors": [
     {
@@ -19,8 +19,8 @@
     }
   ],
   "require": {
-    "yiisoft/yii2": ">2.0.7",
     "php": ">=7.0.0",
+    "yiisoft/yii2": ">2.0.7",
     "alibabacloud/sdk": "dev-master"
   },
   "autoload": {
