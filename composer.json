@@ -1,10 +1,12 @@
 {
   "name": "windhoney/yii2-acm-kms",
-  "description": "阿里云ACM KMS",
+  "description": "YII2中使用阿里云ACM应用配置管理 KMS密钥管理",
   "keywords": [
     "yii",
     "acm",
-    "kms"
+    "kms",
+    "alibabacloud",
+    "sdk"
   ],
   "type": "yii2-extension",
   "license": "MIT",

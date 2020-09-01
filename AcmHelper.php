@@ -122,7 +122,7 @@ class AcmHelper
     /**
      * 监听配置变化
      *
-     * @param string $content 配置内容，使用加密则未加密的内容
+     * @param string $content 配置内容，若配置中使用加密则为加密后的内容
      *
      * @return false|mixed|string
      * @throws \Aliyun_ACM_Exception
